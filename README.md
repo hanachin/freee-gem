@@ -1,4 +1,4 @@
-# Freee
+# Freee [![Build Status](https://travis-ci.org/C-FO/freee-gem.svg)](https://travis-ci.org/C-FO/freee-gem)
 
 Ruby implementation of the freee API.
 
