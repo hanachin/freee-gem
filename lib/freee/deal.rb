@@ -1,7 +1,7 @@
 module Freee
   class Deal < Freee::Base
     def self.create
-      Freeee.client.post('/api/1/deals', :deals, **kwargs)
+      Freee.client.post('/api/1/deals', :deals, **kwargs)
     end
 
     def self.list(company_id, **kwargs)
