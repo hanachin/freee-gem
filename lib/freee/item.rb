@@ -1,6 +1,6 @@
 module Freee
   class Item < Freee::Base
-    def self.create
+    def self.create(**kwargs)
       Freee.client.post('/api/1/items', :item, **kwargs)
     end
 

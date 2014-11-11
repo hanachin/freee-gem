@@ -1,6 +1,6 @@
 module Freee
   class Transfer < Freee::Base
-    def self.create
+    def self.create(**kwargs)
       Freee.client.post('/api/1/transfers', :transfer, **kwargs)
     end
 
