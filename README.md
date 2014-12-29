@@ -6,6 +6,10 @@ Ruby implementation of the freee API.
 
 - [freee API v1.0](https://gist.github.com/yokoji/822edacff497b21fa7bf)(Japanese)
 
+# Requirements
+
+Ruby 2.0.0 or higher.
+
 ## Installation
 
 Add this line to your application's Gemfile:
